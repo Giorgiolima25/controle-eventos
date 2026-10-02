@@ -10,7 +10,7 @@ import InventoryHistory from './components/InventoryHistory';
 import OrderManagement from './components/OrderManagement'; 
 import Catalog from './components/Catalog'; 
 import BudgetDashboard from './components/BudgetDashboard';
-import { db, isDatabaseConnected } from './services/supabase';
+import { db } from './services/supabase';
 import { useEscapeClose } from './services/useEscapeClose';
 
 const formatarTextoComoNomeProprio = (valor: string) =>
@@ -265,11 +265,6 @@ const App: React.FC = () => {
         className="flex-1 flex flex-col h-full overflow-y-auto bg-[#fdf8f6]"
         style={{ backgroundColor: 'var(--claudia-page-bg, #fdf8f6)' }}
       >
-        {!isDatabaseConnected && (
-          <div role="status" className="bg-amber-50 border-b border-amber-200 px-4 py-3 text-sm text-amber-900">
-            Sistema sem banco de dados. As telas estão abertas; cadastros e gravações ficam disponíveis após configurar o banco do novo cliente.
-          </div>
-        )}
         <div id="claudia-scroll-content" className="relative p-4 md:p-10 flex flex-col items-center">
           
           <div className="management-toolbar flex items-center gap-3 mb-6 md:mb-8 w-full max-w-6xl">

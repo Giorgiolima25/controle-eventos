@@ -14,7 +14,7 @@ const AdminLogoutContext = createContext<{
 export function AdminLogoutButton() {
   const access = useContext(AdminLogoutContext);
   if (!access) return null;
-  return <div className="absolute left-full top-1/2 z-10 ml-2 -translate-y-1/2">
+  return <div className="absolute right-4 top-2 z-10">
     <button type="button" disabled={access.busy} onClick={access.signOut}
       className="flex h-9 w-9 items-center justify-center rounded-full border border-white/25 bg-white/10 text-white transition-colors hover:bg-white/25 disabled:opacity-50"
       title="Sair da conta" aria-label={access.busy ? 'Saindo da conta' : 'Sair da conta'}>

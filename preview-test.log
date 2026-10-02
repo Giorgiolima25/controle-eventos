@@ -48,3 +48,7 @@
 16:51:45 [vite] (client) hmr update /App.tsx
 16:51:45 [vite] (client) hmr update /index.css
 17:21:00 [vite] (client) hmr update /App.tsx
+17:31:21 [vite] (client) hmr update /components/AdminAccess.tsx
+17:31:21 [vite] (client) hmr update /components/Sidebar.tsx
+17:31:21 [vite] (client) hmr invalidate /components/Sidebar.tsx Could not Fast Refresh ("getSidebarTheme" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+17:31:21 [vite] (client) hmr update /App.tsx

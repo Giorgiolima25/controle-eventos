@@ -178,9 +178,7 @@ const Sidebar: React.FC<SidebarProps> = ({
 
       {/* Cabeçalho / Logo */}
       <div className="management-sidebar-brand mb-0 mt-0 text-center">
-        <div className="absolute right-[60px] top-6 w-0">
-          <AdminLogoutButton />
-        </div>
+        <AdminLogoutButton />
         <div className="relative w-full flex justify-center">
           <img src={logo2} alt="Logo do sistema" className="management-brand-logo" width="164" height="164" />
         </div>

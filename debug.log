@@ -1,0 +1,7 @@
+[1002/113417.933:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: Acesso negado. (0x5)
+[1002/113417.959:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: Acesso negado. (0x5)
+[1002/132216.214:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: Acesso negado. (0x5)
+[1002/132320.200:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: Acesso negado. (0x5)
+[1002/132500.434:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: Acesso negado. (0x5)
+[1002/142834.388:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: Acesso negado. (0x5)
+[1002/143057.121:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: Acesso negado. (0x5)
